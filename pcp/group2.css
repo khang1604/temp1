@@ -1,0 +1,64 @@
+#tuade1 {
+    
+    padding: 10px;
+    text-align: center;
+}
+#tuade2 {
+    
+    padding: 10px;
+    text-align: center;
+}
+table {
+    margin: 0 auto;
+    width: 200px; /* Chiều rộng */
+    height: 200px; /* Chiều cao */
+    border-radius: 50%; /* Tạo hình tròn */
+    object-fit: cover; /* Đảm bảo hình ảnh không bị biến dạng */
+    background-color: #6d00fc; /* Màu nền */
+}
+
+td {
+    width: 200px; /* Chiều rộng */
+    height: 200px; /* Chiều cao */
+    border-radius: 50%; /* Tạo hình tròn */
+    object-fit: cover; /* Đảm bảo hình ảnh không bị biến dạng */
+}
+
+img {
+    width: 200px; /* Chiều rộng */
+    height: 200px; /* Chiều cao */
+    border-radius: 50%; /* Tạo hình tròn */
+    object-fit: cover; /* Đảm bảo hình ảnh không bị biến dạng */
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative; /* Để định vị tên */
+    cursor: pointer; /* Thay đổi con trỏ khi di chuột vào */
+}
+
+
+.circle:hover{
+    width: 200px;
+    height: 300px;
+    border-radius: 5%;
+}
+.circle img {
+    width: 100%;
+    height: auto;
+}

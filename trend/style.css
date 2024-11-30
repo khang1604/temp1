@@ -1,0 +1,35 @@
+body{
+    background-color:#f177d2 ;
+}
+
+.text-container {
+    background-color: #f177d2;
+    width: 100%;
+    height: 100%;
+}
+
+.content{
+    position: absolute ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 100;
+    color:white;
+}
+
+#descript_general{
+    color: white;
+    font-size: 110px;
+    line-height: 1.5;
+    z-index: 100;
+}
+
+#heart{
+    display: flex;
+}
+
+#heart1, #heart2{
+    width: 1200px;
+    clip-path: inset(20px 50px 10px 0 round 50px);
+}
